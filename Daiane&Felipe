@@ -1,6 +1,4 @@
 import React, { useEffect, useMemo, useState } from "react";
-
-// === CONFIGURAÇÃO EDITÁVEL ===
 const CONFIG = {
   couple: {
     names: "Felipe & Daiane",
@@ -9,22 +7,18 @@ const CONFIG = {
     date: "20/12/2025",
     time: "16:00",
     venue: "Casa da Dona Jamel",
-    cityState: "Itajaí — SC",
+    cityState: "Angra dos Reis, RJ",
   },
-  // \u26a0\ufe0f Altere a senha abaixo (só letras/números) e compartilhe apenas com convidados.
   password: "romance2025",
   theme: {
     primary: "#b83280", // fúcsia suave
     accent: "#ffdbe8", // rosa claro de fundo
   },
-  // Lista de presentes — edite livremente.
-  // Dica: use links de busca do Mercado Livre para evitar quebrar o link de um vendedor específico.
   gifts: [
     {
       id: "panela",
       name: "Jogo de Panelas Antiaderente",
       note: "Tamanho médio, 5 a 7 peças",
-      // Link de BUSCA no Mercado Livre (pode trocar por um link específico se quiser)
       mlLink: "https://lista.mercadolivre.com.br/jogo-de-panelas-antiaderente",
       image:
         "https://images.unsplash.com/photo-1612152607435-cbd1d10f3a9a?q=80&w=1200&auto=format&fit=crop",
@@ -87,8 +81,6 @@ const CONFIG = {
     },
   ],
 };
-
-// === COMPONENTES DE UI ===
 const Heart = (props) => (
   <svg
     viewBox="0 0 24 24"
